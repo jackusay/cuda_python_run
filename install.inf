@@ -1,0 +1,13 @@
+; ref https://en.wikipedia.org/wiki/INI_file
+[info]
+title=Run python on console Plugin
+desc=run python in editor on console
+type=cudatext-plugin
+subdir=cuda_python_run
+homepage=(to write)
+
+[item2]
+section=commands
+caption=Python Run\&Run
+method=python_run
+lexers=Python
